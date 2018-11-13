@@ -7,6 +7,6 @@ module.exports = function(app) {
     });
     // route for the home.html page
     app.use(function(req, res) {
-        res.sendFile(path.join(__dirname + "/../public/home.html"));
+        res.sendFile(path.join(__dirname + "/../public/index.html"));
     });
 }
